@@ -1,0 +1,35 @@
+[
+  {
+    "recordId": "unknown",
+    "recordType": "lead",
+    "name": "unknown",
+    "status": "validation_failed",
+    "errors": [
+      "Record ID is missing",
+      "Record name is missing",
+      "Invalid email address",
+      "Lead company is missing",
+      "Lead job title is missing"
+    ],
+    "failedAt": "2026-07-20T09:32:11.564Z",
+    "rawRecord": {
+      "id": null,
+      "source": "linkedin_csv",
+      "recordType": "lead",
+      "name": "",
+      "contactInfo": {
+        "email": "invalid-email",
+        "phone": null
+      },
+      "context": {
+        "jobTitle": null,
+        "company": null
+      },
+      "prioritySignals": [],
+      "rawPayload": {
+        "note": "Deliberate invalid record for failure testing"
+      },
+      "createdAt": "2026-07-20T09:32:11.563Z"
+    }
+  }
+]

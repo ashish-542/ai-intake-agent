@@ -1,0 +1,796 @@
+[
+  {
+    "recordId": "L001",
+    "source": "linkedin_csv",
+    "recordType": "lead",
+    "name": "Rebecca Hart",
+    "contactInfo": {
+      "email": null,
+      "phone": null
+    },
+    "context": {
+      "jobTitle": "Practice Manager",
+      "company": "Northgate Family Clinic",
+      "industry": "Healthcare",
+      "companySize": "11-50",
+      "location": "Austin TX",
+      "linkedinHeadline": "Practice Manager helping small clinics run smoother ops",
+      "recentActivity": "Liked a post about AI receptionists for medical clinics",
+      "connectionNote": "Sent a connection request after webinar on clinic automation"
+    },
+    "agentDecision": {
+      "classification": "warm",
+      "priority": "medium",
+      "recommendedAction": "send_linkedin_message",
+      "channel": "linkedin",
+      "tone": "consultative",
+      "prioritySignals": [
+        "recent activity indicates interest in clinic automation",
+        "job title suggests influence over purchasing decisions"
+      ],
+      "reasoning": "Rebecca's recent activity and job title suggest she may be interested in learning more about solutions for her clinic. The connection note also indicates she has shown interest in the topic after a webinar."
+    },
+    "generatedMessage": "Hi Rebecca, I saw your interest in AI receptionists for medical clinics and wanted to follow up on our previous connection. How can I help Northgate Family Clinic streamline its operations?",
+    "processingStatus": "processed",
+    "processedAt": "2026-07-20T09:32:12.446Z",
+    "crmCreatedAt": "2026-07-20T09:32:12.507Z"
+  },
+  {
+    "recordId": "L002",
+    "source": "linkedin_csv",
+    "recordType": "lead",
+    "name": "Marcus Feldman",
+    "contactInfo": {
+      "email": null,
+      "phone": null
+    },
+    "context": {
+      "jobTitle": "Owner",
+      "company": "Feldman Dental Group",
+      "industry": "Dental",
+      "companySize": "1-10",
+      "location": "Denver CO",
+      "linkedinHeadline": "Owner-dentist, 3 locations, always looking to cut admin overhead",
+      "recentActivity": "Commented on a post asking for GHL recommendations",
+      "connectionNote": "No note, cold profile visit"
+    },
+    "agentDecision": {
+      "classification": "warm",
+      "priority": "medium",
+      "recommendedAction": "send_linkedin_message",
+      "channel": "linkedin",
+      "tone": "consultative",
+      "prioritySignals": [
+        "recentActivity",
+        "linkedinHeadline"
+      ],
+      "reasoning": "The lead is classified as warm due to their recent activity and headline indicating a potential interest in reducing administrative overhead. As the owner of a dental group, they are likely to influence or make purchasing decisions."
+    },
+    "generatedMessage": "Hi Marcus, I saw your comment on GHL recommendations and noticed you're looking to cut admin overhead. I'd be happy to discuss how our solutions can help Feldman Dental Group streamline operations.",
+    "processingStatus": "processed",
+    "processedAt": "2026-07-20T09:32:16.082Z",
+    "crmCreatedAt": "2026-07-20T09:32:16.086Z"
+  },
+  {
+    "recordId": "L003",
+    "source": "linkedin_csv",
+    "recordType": "lead",
+    "name": "Priya Nair",
+    "contactInfo": {
+      "email": null,
+      "phone": null
+    },
+    "context": {
+      "jobTitle": "Director of Operations",
+      "company": "Sunrise Physiotherapy",
+      "industry": "Healthcare",
+      "companySize": "51-200",
+      "location": "Toronto ON",
+      "linkedinHeadline": "Ops leader scaling physio clinics across Ontario",
+      "recentActivity": "Shared an article about patient no-show rates",
+      "connectionNote": "Mutual connection: former colleague"
+    },
+    "agentDecision": {
+      "classification": "warm",
+      "priority": "medium",
+      "recommendedAction": "send_linkedin_message",
+      "channel": "linkedin",
+      "tone": "consultative",
+      "prioritySignals": [
+        "jobTitle",
+        "recentActivity"
+      ],
+      "reasoning": "Priya Nair is a Director of Operations with a recent activity related to patient no-show rates, indicating potential interest in operational solutions. The mutual connection note also suggests a potential warm introduction."
+    },
+    "generatedMessage": "Hi Priya, saw your article share on patient no-show rates. Would love to discuss how our solutions can help Sunrise Physiotherapy optimize operations.",
+    "processingStatus": "processed",
+    "processedAt": "2026-07-20T09:32:19.621Z",
+    "crmCreatedAt": "2026-07-20T09:32:19.625Z"
+  },
+  {
+    "recordId": "L004",
+    "source": "linkedin_csv",
+    "recordType": "lead",
+    "name": "James O'Connell",
+    "contactInfo": {
+      "email": null,
+      "phone": null
+    },
+    "context": {
+      "jobTitle": "Founder",
+      "company": "O'Connell Med Spa",
+      "industry": "Medspa",
+      "companySize": "1-10",
+      "location": "Miami FL",
+      "linkedinHeadline": "Founder, medspa entrepreneur, ex-nurse",
+      "recentActivity": "Posted about struggling with lead follow-up speed",
+      "connectionNote": "Cold outreach, no prior interaction"
+    },
+    "agentDecision": {
+      "classification": "warm",
+      "priority": "medium",
+      "recommendedAction": "send_linkedin_message",
+      "channel": "linkedin",
+      "tone": "consultative",
+      "prioritySignals": [
+        "recentActivity"
+      ],
+      "reasoning": "James is a founder of a medspa and has recently posted about struggling with lead follow-up speed, indicating a potential need for solutions. As the founder, he is likely to influence or make purchasing decisions."
+    },
+    "generatedMessage": "Hi James, I saw your post about struggling with lead follow-up speed. As a founder of O'Connell Med Spa, I'd love to discuss potential solutions to help streamline your process.",
+    "processingStatus": "processed",
+    "processedAt": "2026-07-20T09:32:23.207Z",
+    "crmCreatedAt": "2026-07-20T09:32:23.210Z"
+  },
+  {
+    "recordId": "L005",
+    "source": "linkedin_csv",
+    "recordType": "lead",
+    "name": "Angela Torres",
+    "contactInfo": {
+      "email": null,
+      "phone": null
+    },
+    "context": {
+      "jobTitle": "VP Marketing",
+      "company": "ClearPath Urgent Care",
+      "industry": "Healthcare",
+      "companySize": "201-500",
+      "location": "Phoenix AZ",
+      "linkedinHeadline": "VP Marketing scaling multi-location urgent care brand",
+      "recentActivity": "Attended a HubSpot webinar last week",
+      "connectionNote": "Requested a demo via website form"
+    },
+    "agentDecision": {
+      "classification": "hot",
+      "priority": "high",
+      "recommendedAction": "send_linkedin_message",
+      "channel": "linkedin",
+      "tone": "consultative",
+      "prioritySignals": [
+        "VP Marketing",
+        "Requested a demo via website form",
+        "Attended a HubSpot webinar"
+      ],
+      "reasoning": "The lead is a VP of Marketing with a clear interest in scaling their urgent care brand, having attended a relevant webinar and requested a demo. This indicates a strong buying intent and influence in purchasing decisions."
+    },
+    "generatedMessage": "Hi Angela, I saw that you attended the recent HubSpot webinar and requested a demo. I'd love to discuss how our solution can help scale your urgent care brand. Let's connect and explore further.",
+    "processingStatus": "processed",
+    "processedAt": "2026-07-20T09:32:26.771Z",
+    "crmCreatedAt": "2026-07-20T09:32:26.775Z"
+  },
+  {
+    "recordId": "9da7d8c2-daef-4722-832e-dcf495d13a4e",
+    "source": "fhir",
+    "recordType": "patient",
+    "name": "Reba Nolan",
+    "contactInfo": {
+      "email": null,
+      "phone": "555-845-5079"
+    },
+    "context": {
+      "gender": "female",
+      "birthDate": "1950-01-12",
+      "language": "English",
+      "address": {
+        "line": "920 Crona Flat",
+        "city": "Norwood",
+        "state": "Massachusetts",
+        "postalCode": "02062",
+        "country": "US"
+      },
+      "conditions": [
+        {
+          "id": "47d1d49e-ea9f-4471-850c-512df2d29726",
+          "display": "Acute viral pharyngitis (disorder)",
+          "code": "195662009",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "2013-05-11T18:51:00+00:00",
+          "onsetDateTime": "2013-05-11T18:51:00+00:00"
+        },
+        {
+          "id": "2a180b36-05c1-4b90-9c67-1014c9cadccd",
+          "display": "Polyp of colon",
+          "code": "68496003",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "2010-01-10T18:51:00+00:00",
+          "onsetDateTime": "2010-01-10T18:51:00+00:00"
+        },
+        {
+          "id": "9599e5dc-f9cd-4e5a-880f-5756d7ec50fc",
+          "display": "Viral sinusitis (disorder)",
+          "code": "444814009",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "2012-01-26T18:51:00+00:00",
+          "onsetDateTime": "2012-01-26T18:51:00+00:00"
+        },
+        {
+          "id": "89510109-66d0-45fa-a606-caa3f62406b5",
+          "display": "Stroke",
+          "code": "230690007",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1988-07-28T18:51:00+00:00",
+          "onsetDateTime": "1988-07-28T18:51:00+00:00"
+        },
+        {
+          "id": "1a679f5c-5c58-4977-b163-3c37a2acf101",
+          "display": "Streptococcal sore throat (disorder)",
+          "code": "43878008",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "2016-11-06T18:51:00+00:00",
+          "onsetDateTime": "2016-11-06T18:51:00+00:00"
+        },
+        {
+          "id": "b32e3b07-4b70-4124-ad83-8e604394ef26",
+          "display": "Viral sinusitis (disorder)",
+          "code": "444814009",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "2013-06-17T18:51:00+00:00",
+          "onsetDateTime": "2013-06-17T18:51:00+00:00"
+        },
+        {
+          "id": "fdc1e353-3065-4793-983c-5915b04efe3d",
+          "display": "Hypertension",
+          "code": "38341003",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1968-03-07T18:51:00+00:00",
+          "onsetDateTime": "1968-03-07T18:51:00+00:00"
+        },
+        {
+          "id": "041e1552-184d-409f-87e4-b5d816fa0845",
+          "display": "Body mass index 30+ - obesity (finding)",
+          "code": "162864005",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1996-02-01T18:51:00+00:00",
+          "onsetDateTime": "1996-02-01T18:51:00+00:00"
+        }
+      ]
+    },
+    "agentDecision": {
+      "classification": "follow_up_recommended",
+      "priority": "medium",
+      "recommendedAction": "schedule_call",
+      "channel": "phone",
+      "tone": "supportive",
+      "prioritySignals": [
+        "active Stroke condition",
+        "active Hypertension condition",
+        "active obesity condition"
+      ],
+      "reasoning": "The patient has multiple active conditions that require follow-up, including Stroke, Hypertension, and obesity."
+    },
+    "generatedMessage": "Hi Reba, we're checking in to see how you're doing with your health conditions. Can we schedule a call to discuss your care and answer any questions you may have?",
+    "processingStatus": "processed",
+    "processedAt": "2026-07-20T09:32:30.494Z",
+    "crmCreatedAt": "2026-07-20T09:32:30.497Z"
+  },
+  {
+    "recordId": "1fc53917-6bc1-4f87-9008-c91e94f0e188",
+    "source": "fhir",
+    "recordType": "patient",
+    "name": "Mario Dietrich",
+    "contactInfo": {
+      "email": null,
+      "phone": "555-533-6597"
+    },
+    "context": {
+      "gender": "male",
+      "birthDate": "1965-12-17",
+      "language": "English",
+      "address": {
+        "line": "339 Farrell Drive Apt 50",
+        "city": "Chicopee",
+        "state": "Massachusetts",
+        "postalCode": "01013",
+        "country": "US"
+      },
+      "conditions": [
+        {
+          "id": "f49b3b19-7c71-4724-be83-1d7357b75d6a",
+          "display": "Acute viral pharyngitis (disorder)",
+          "code": "195662009",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "2017-05-19T13:45:42+00:00",
+          "onsetDateTime": "2017-05-19T13:45:42+00:00"
+        },
+        {
+          "id": "540862c6-787d-40b9-9a8d-986616546858",
+          "display": "Viral sinusitis (disorder)",
+          "code": "444814009",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "2016-03-15T13:45:42+00:00",
+          "onsetDateTime": "2016-03-15T13:45:42+00:00"
+        },
+        {
+          "id": "0d5f9c8d-a7ef-44cf-b5b8-ffe1493fd71a",
+          "display": "Chronic sinusitis (disorder)",
+          "code": "40055000",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1993-05-04T13:45:42+00:00",
+          "onsetDateTime": "1993-05-04T13:45:42+00:00"
+        },
+        {
+          "id": "181aa83a-8a8a-4013-b716-9fcff714d283",
+          "display": "Acute bacterial sinusitis (disorder)",
+          "code": "75498004",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "2018-06-19T13:45:42+00:00",
+          "onsetDateTime": "2018-06-19T13:45:42+00:00"
+        },
+        {
+          "id": "5bd3db05-2c3c-4490-b16d-48c6f23191d7",
+          "display": "Acute viral pharyngitis (disorder)",
+          "code": "195662009",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "2018-09-25T13:45:42+00:00",
+          "onsetDateTime": "2018-09-25T13:45:42+00:00"
+        },
+        {
+          "id": "65a50736-42e1-4445-9e6c-902b779101b1",
+          "display": "Hypertension",
+          "code": "38341003",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1984-06-01T13:45:42+00:00",
+          "onsetDateTime": "1984-06-01T13:45:42+00:00"
+        },
+        {
+          "id": "16cf4651-7ff4-4912-9e87-cce0ee014601",
+          "display": "Impacted molars",
+          "code": "196416002",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1991-12-08T13:45:42+00:00",
+          "onsetDateTime": "1991-12-08T13:45:42+00:00"
+        },
+        {
+          "id": "649b6fbf-b422-49da-bb8a-4247a4cec0a0",
+          "display": "Anemia (disorder)",
+          "code": "271737000",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "2004-03-19T13:45:42+00:00",
+          "onsetDateTime": "2004-03-19T13:45:42+00:00"
+        },
+        {
+          "id": "3906425a-bac9-4ad3-9516-5a6b7e89227a",
+          "display": "Acute bronchitis (disorder)",
+          "code": "10509002",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "2012-11-30T13:45:42+00:00",
+          "onsetDateTime": "2012-11-30T13:45:42+00:00"
+        },
+        {
+          "id": "fc06757c-e4e9-49e1-a368-fa4c229bac0b",
+          "display": "Sprain of ankle",
+          "code": "44465007",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "2017-03-27T13:45:42+00:00",
+          "onsetDateTime": "2017-03-27T13:45:42+00:00"
+        },
+        {
+          "id": "1bf4be8c-1213-4bb0-94fe-b34e83392223",
+          "display": "Prediabetes",
+          "code": "15777000",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1993-05-14T13:45:42+00:00",
+          "onsetDateTime": "1993-05-14T13:45:42+00:00"
+        },
+        {
+          "id": "c8b0dac2-7e69-4555-b549-031f54773018",
+          "display": "Drug overdose",
+          "code": "55680006",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1992-07-26T13:45:42+00:00",
+          "onsetDateTime": "1992-07-26T13:45:42+00:00"
+        }
+      ]
+    },
+    "agentDecision": {
+      "classification": "manual_review_required",
+      "priority": "high",
+      "recommendedAction": "manual_review",
+      "channel": "internal",
+      "tone": "professional",
+      "prioritySignals": [
+        "multiple active conditions",
+        "drug overdose"
+      ],
+      "reasoning": "The patient has multiple active conditions, including drug overdose, which requires immediate human attention and review."
+    },
+    "generatedMessage": "Internal review note: Patient Mario Dietrich has multiple active conditions, including drug overdose. Manual review is required to ensure proper care and attention.",
+    "processingStatus": "processed",
+    "processedAt": "2026-07-20T09:32:34.112Z",
+    "crmCreatedAt": "2026-07-20T09:32:34.141Z"
+  },
+  {
+    "recordId": "d63abf62-0f84-4649-94d2-052d9363ac00",
+    "source": "fhir",
+    "recordType": "patient",
+    "name": "Steve Nikolaus",
+    "contactInfo": {
+      "email": null,
+      "phone": "555-130-3498"
+    },
+    "context": {
+      "gender": "male",
+      "birthDate": "2007-11-18",
+      "language": "English",
+      "address": {
+        "line": "595 Kautzer Pathway",
+        "city": "Bourne",
+        "state": "Massachusetts",
+        "postalCode": "02532",
+        "country": "US"
+      },
+      "conditions": [
+        {
+          "id": "8c061097-f8ea-46fb-ab0d-3d33a475c24b",
+          "display": "Acute bacterial sinusitis (disorder)",
+          "code": "75498004",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "2015-07-09T22:11:24+00:00",
+          "onsetDateTime": "2015-07-09T22:11:24+00:00"
+        },
+        {
+          "id": "5c58c5da-0bba-4fa4-974d-5957ab1b9018",
+          "display": "Viral sinusitis (disorder)",
+          "code": "444814009",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "2017-11-29T22:11:24+00:00",
+          "onsetDateTime": "2017-11-29T22:11:24+00:00"
+        },
+        {
+          "id": "39923c1d-3013-4f2b-9104-316b3ec782fe",
+          "display": "Viral sinusitis (disorder)",
+          "code": "444814009",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "2014-09-16T22:11:24+00:00",
+          "onsetDateTime": "2014-09-16T22:11:24+00:00"
+        },
+        {
+          "id": "7bab9c75-3848-46a1-b5c7-dddd1bfc9ef4",
+          "display": "Child attention deficit disorder",
+          "code": "192127007",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "2016-11-15T22:11:24+00:00",
+          "onsetDateTime": "2016-11-15T22:11:24+00:00"
+        }
+      ]
+    },
+    "agentDecision": {
+      "classification": "routine_outreach",
+      "priority": "low",
+      "recommendedAction": "schedule_call",
+      "channel": "phone",
+      "tone": "supportive",
+      "prioritySignals": [],
+      "reasoning": "Patient has a history of resolved conditions and is available for phone contact."
+    },
+    "generatedMessage": "Hi Steve, this is a routine follow-up call to check on your well-being. How have you been feeling lately?",
+    "processingStatus": "processed",
+    "processedAt": "2026-07-20T09:32:37.704Z",
+    "crmCreatedAt": "2026-07-20T09:32:37.708Z"
+  },
+  {
+    "recordId": "f17e9000-364e-466f-9a73-427cbdcead3d",
+    "source": "fhir",
+    "recordType": "patient",
+    "name": "Rick Prohaska",
+    "contactInfo": {
+      "email": null,
+      "phone": "555-136-4739"
+    },
+    "context": {
+      "gender": "male",
+      "birthDate": "1915-07-03",
+      "language": "English",
+      "address": {
+        "line": "649 Renner Pathway",
+        "city": "West Springfield Town",
+        "state": "Massachusetts",
+        "postalCode": "01089",
+        "country": "US"
+      },
+      "conditions": [
+        {
+          "id": "8fa04721-934c-446e-8acb-8f93183e8df6",
+          "display": "Chronic intractable migraine without aura",
+          "code": "124171000119105",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1992-01-22T19:20:06+00:00",
+          "onsetDateTime": "1992-01-22T19:20:06+00:00"
+        },
+        {
+          "id": "d10dc04c-4b35-4d98-a2bc-f6241b210b7e",
+          "display": "Stroke",
+          "code": "230690007",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1955-09-24T19:20:06+00:00",
+          "onsetDateTime": "1955-09-24T19:20:06+00:00"
+        },
+        {
+          "id": "ad4134f1-7c97-4918-926f-efc9a3b534dd",
+          "display": "Acute viral pharyngitis (disorder)",
+          "code": "195662009",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1985-06-08T19:20:06+00:00",
+          "onsetDateTime": "1985-06-08T19:20:06+00:00"
+        },
+        {
+          "id": "9f5490fd-9eed-4774-a6be-9c0a3412d375",
+          "display": "Prediabetes",
+          "code": "15777000",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1949-09-17T19:20:06+00:00",
+          "onsetDateTime": "1949-09-17T19:20:06+00:00"
+        },
+        {
+          "id": "3a3ab2d8-cbdb-4ded-8a31-892a466a204f",
+          "display": "Fracture of forearm",
+          "code": "65966004",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1987-04-26T19:20:06+00:00",
+          "onsetDateTime": "1987-04-26T19:20:06+00:00"
+        },
+        {
+          "id": "3e6b9925-8dea-4376-bf70-fe61092d8d80",
+          "display": "Impacted molars",
+          "code": "196416002",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1992-05-01T19:20:06+00:00",
+          "onsetDateTime": "1992-05-01T19:20:06+00:00"
+        },
+        {
+          "id": "f82f973a-2edb-427d-9ea5-a1b00cfcc350",
+          "display": "Body mass index 30+ - obesity (finding)",
+          "code": "162864005",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1940-09-07T19:20:06+00:00",
+          "onsetDateTime": "1940-09-07T19:20:06+00:00"
+        },
+        {
+          "id": "71ecd120-f6d1-4cfd-afaf-4e58d1484b6e",
+          "display": "Acute viral pharyngitis (disorder)",
+          "code": "195662009",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1992-02-11T19:20:06+00:00",
+          "onsetDateTime": "1992-02-11T19:20:06+00:00"
+        },
+        {
+          "id": "81357810-0e64-4379-946d-e5874d6fd6ff",
+          "display": "Anemia (disorder)",
+          "code": "271737000",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1949-09-17T19:20:06+00:00",
+          "onsetDateTime": "1949-09-17T19:20:06+00:00"
+        },
+        {
+          "id": "161568fc-4e4f-42c0-9f0c-000d6ecba562",
+          "display": "Chronic pain",
+          "code": "82423001",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1991-12-09T19:20:06+00:00",
+          "onsetDateTime": "1991-12-09T19:20:06+00:00"
+        },
+        {
+          "id": "2a537362-cb7c-445b-80fa-49a7176b4668",
+          "display": "Chronic congestive heart failure (disorder)",
+          "code": "88805009",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1990-07-03T19:20:06+00:00",
+          "onsetDateTime": "1990-07-03T19:20:06+00:00"
+        },
+        {
+          "id": "45d98b93-2969-47fb-b36a-5c8d2e45bd76",
+          "display": "Hyperlipidemia",
+          "code": "55822004",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1982-11-27T19:20:06+00:00",
+          "onsetDateTime": "1982-11-27T19:20:06+00:00"
+        }
+      ]
+    },
+    "agentDecision": {
+      "classification": "follow_up_recommended",
+      "priority": "medium",
+      "recommendedAction": "schedule_call",
+      "channel": "phone",
+      "tone": "supportive",
+      "prioritySignals": [
+        "Chronic intractable migraine without aura",
+        "Chronic congestive heart failure (disorder)",
+        "Anemia (disorder)"
+      ],
+      "reasoning": "Patient has multiple active conditions that require follow-up care."
+    },
+    "generatedMessage": "Hi Rick, we're checking in to see how you're doing with your conditions. Can we schedule a call to discuss your care and answer any questions you may have?",
+    "processingStatus": "processed",
+    "processedAt": "2026-07-20T09:32:41.259Z",
+    "crmCreatedAt": "2026-07-20T09:32:41.264Z"
+  },
+  {
+    "recordId": "7e50540e-d263-4fd4-a2da-b97279871200",
+    "source": "fhir",
+    "recordType": "patient",
+    "name": "Kyla Zulauf",
+    "contactInfo": {
+      "email": null,
+      "phone": "555-976-3977"
+    },
+    "context": {
+      "gender": "female",
+      "birthDate": "1941-10-19",
+      "language": "English",
+      "address": {
+        "line": "927 Durgan Frontage road Unit 11",
+        "city": "Canton",
+        "state": "Massachusetts",
+        "postalCode": "02021",
+        "country": "US"
+      },
+      "conditions": [
+        {
+          "id": "69d398f3-717d-4ba5-b20b-fd56c4900d16",
+          "display": "Body mass index 30+ - obesity (finding)",
+          "code": "162864005",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1983-04-17T23:52:38+00:00",
+          "onsetDateTime": "1983-04-17T23:52:38+00:00"
+        },
+        {
+          "id": "6609ace8-d477-48f5-9db9-e671245c38d2",
+          "display": "Miscarriage in first trimester",
+          "code": "19169002",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1958-02-23T23:52:38+00:00",
+          "onsetDateTime": "1958-02-23T23:52:38+00:00"
+        },
+        {
+          "id": "ded0b904-ed59-4973-b107-2a681cc1309b",
+          "display": "Atrial Fibrillation",
+          "code": "49436004",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "2015-07-26T23:52:38+00:00",
+          "onsetDateTime": "2015-07-26T23:52:38+00:00"
+        },
+        {
+          "id": "c2425bdf-fac5-4fdb-b343-6fe50ab4d5fd",
+          "display": "Acute viral pharyngitis (disorder)",
+          "code": "195662009",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "2013-06-05T23:52:38+00:00",
+          "onsetDateTime": "2013-06-05T23:52:38+00:00"
+        },
+        {
+          "id": "2f65d277-7834-4d1e-8164-b3893b09115e",
+          "display": "Acute bronchitis (disorder)",
+          "code": "10509002",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "2017-12-25T23:52:38+00:00",
+          "onsetDateTime": "2017-12-25T23:52:38+00:00"
+        },
+        {
+          "id": "b764f209-3ebf-4991-b684-5a97631eea1f",
+          "display": "Acute bronchitis (disorder)",
+          "code": "10509002",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "2016-06-24T23:52:38+00:00",
+          "onsetDateTime": "2016-06-24T23:52:38+00:00"
+        },
+        {
+          "id": "340670e9-d223-4ca5-9c6f-8c324477907d",
+          "display": "Viral sinusitis (disorder)",
+          "code": "444814009",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "2016-09-19T23:52:38+00:00",
+          "onsetDateTime": "2016-09-19T23:52:38+00:00"
+        },
+        {
+          "id": "3562bfec-58c1-428c-a558-ddc8ac5cb7b4",
+          "display": "Streptococcal sore throat (disorder)",
+          "code": "43878008",
+          "clinicalStatus": "resolved",
+          "verificationStatus": "confirmed",
+          "recordedDate": "2015-11-03T23:52:38+00:00",
+          "onsetDateTime": "2015-11-03T23:52:38+00:00"
+        },
+        {
+          "id": "7aab2635-556a-4e1b-8b6f-5faefffbeb89",
+          "display": "Hyperlipidemia",
+          "code": "55822004",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1991-11-24T23:52:38+00:00",
+          "onsetDateTime": "1991-11-24T23:52:38+00:00"
+        },
+        {
+          "id": "4339f19b-5f09-45c5-97c9-d1d5cfae2c2b",
+          "display": "Osteoarthritis of knee",
+          "code": "239873007",
+          "clinicalStatus": "active",
+          "verificationStatus": "confirmed",
+          "recordedDate": "1996-10-05T23:52:38+00:00",
+          "onsetDateTime": "1996-10-05T23:52:38+00:00"
+        }
+      ]
+    },
+    "agentDecision": {
+      "classification": "follow_up_recommended",
+      "priority": "medium",
+      "recommendedAction": "schedule_call",
+      "channel": "phone",
+      "tone": "supportive",
+      "prioritySignals": [
+        "Atrial Fibrillation",
+        "Hyperlipidemia",
+        "Osteoarthritis of knee"
+      ],
+      "reasoning": "The patient has multiple active conditions that require monitoring and follow-up care."
+    },
+    "generatedMessage": "Hi Kyla, we're checking in to see how you're doing with your conditions. Can we schedule a call to discuss your care and answer any questions you may have?",
+    "processingStatus": "processed",
+    "processedAt": "2026-07-20T09:32:44.892Z",
+    "crmCreatedAt": "2026-07-20T09:32:44.896Z"
+  }
+]

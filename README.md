@@ -333,6 +333,48 @@ processed_records.json
 
 ---
 
+## Sample Output
+
+A successful sample run containing 10 end-to-end processed records is included in:
+
+```text
+sample-output/processed_records.json
+```
+
+The sample contains:
+
+- 5 lead records
+- 5 synthetic patient records
+- AI classification and priority
+- Agent reasoning
+- Recommended action and communication channel
+- Final personalized message
+- Mock CRM delivery confirmation
+
+Additional sample files:
+
+```text
+sample-output/failed_records.json
+sample-output/run-summary.txt
+```
+
+The processed records can also be viewed while the server is running:
+
+```text
+GET http://localhost:3000/api/crm/records
+```
+
+The final sample run completed with:
+
+```text
+Records Processed : 10
+CRM Delivered     : 10
+Validation Failed : 1
+Processing Failed : 0
+```
+
+---
+
 ## Assumptions
 
 - The FHIR server provides publicly accessible synthetic patient data.

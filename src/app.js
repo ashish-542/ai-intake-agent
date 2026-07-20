@@ -278,32 +278,62 @@ async function start() {
         let crmDelivered = 0;
         let processingFailures = 0;
 
-        const leadRecord =
-            validRecords.find(
-                (record) =>
-                    record.recordType ===
-                    "lead"
-            );
+const leadsToProcess = validRecords
+    .filter(
+        (record) =>
+            record.recordType === "lead"
+    )
+    .slice(0, 5);
 
-        const patientRecord =
-            validRecords.find(
-                (record) =>
-                    record.recordType ===
-                    "patient"
-            );
+const patientsToProcess = validRecords
+    .filter(
+        (record) =>
+            record.recordType === "patient"
+            )
+            .slice(0, 5);
 
         const recordsToProcess = [
-            leadRecord,
-            patientRecord,
-        ].filter(Boolean);
+            ...leadsToProcess,
+            ...patientsToProcess,
+        ];
+
+        console.log(
+            `Records Selected         : ${recordsToProcess.length}`
+        );
+
+        console.log(
+            `Leads Selected           : ${leadsToProcess.length}`
+        );
+
+        console.log(
+            `Patients Selected        : ${patientsToProcess.length}`
+        );
 
         for (
             const record of
             recordsToProcess
         ) {
             try {
+                const recordNumber =
+                    processedRecords.length +
+                    processingFailures +
+                    1;
+
+                console.log("");
                 console.log(
-                    `🤖 Processing ${record.recordType}: ${record.name}`
+                    `🤖 Processing ${recordNumber}/${recordsToProcess.length}`
+                );
+
+                console.log(
+                    `   Type : ${record.recordType}`
+                );
+
+                console.log(
+                    `   Name : ${record.name}`
+                );
+
+                console.log(
+                    `   ID   : ${record.id}`
                 );
 
                 const processedRecord =

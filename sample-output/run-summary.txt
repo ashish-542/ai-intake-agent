@@ -1,0 +1,38 @@
+AI Intake Agent - Sample Run Summary
+
+Date:
+Add the date and time of the final run.
+
+Input Sources:
+- 18 lead records loaded from CSV
+- 15 synthetic patient records loaded from the FHIR API
+
+Normalization:
+- 18 leads normalized
+- 15 patients normalized
+- 33 unified records created
+
+Validation:
+- 34 records checked, including one deliberate invalid test record
+- 33 valid records
+- 1 failed validation record
+- Failed record stored in sample-output/failed_records.json
+
+AI Processing:
+- 5 lead records processed
+- 5 patient records processed
+- 10 total records processed by the AI agent
+
+Mock CRM Delivery:
+- 10 records delivered successfully
+- 0 processing failures
+- Records stored through POST /api/crm/records
+- Final records available through GET /api/crm/records
+
+Final Result:
+Records Processed: 10
+CRM Delivered: 10
+Validation Failed: 1
+Processing Failed: 0
+
+Pipeline completed successfully.
